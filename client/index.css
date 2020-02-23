@@ -1,0 +1,36 @@
+body {
+font-size: 16px;
+}
+.title {
+    text-align: center;
+
+}
+
+.app-form {
+    width: 40%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.loading {
+margin: 0 auto;
+text-align: center;
+}
+
+.loading img {
+    height: 2.1em;
+}
+
+.del-th {
+    border: none;
+}
+
+.delete {
+    margin: 25% auto;
+   
+}
+
+
+
+

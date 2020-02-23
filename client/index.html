@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FullStack App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1 class="title">Server Database Test</h1>
+
+    <form class="app-form">
+        <label for="name">Name</label>
+        <input class="u-full-width" id="name" name="name" type="text" required>
+        <label for="content">Content</label>
+        <textarea class="u-full-width" id="content" name="content" type="text" required></textarea>
+        <br>
+        <button class="button-primary" type="submit">Submit</button>
+
+    </form>
+    <div class="loading"><img src="ajax-loader.gif"></div>
+    <table class="u-full-width">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Content</th>
+                <th>Date</th>
+                <th class="del-th">Delete</th>
+            </tr>
+        </thead>
+        <tbody class="responses">
+
+        </tbody>
+
+
+    </table>
+
+    <script src="client.js"></script>
+
+    
+</body>
+</html>
